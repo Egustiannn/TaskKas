@@ -1,0 +1,4 @@
+Options -Indexes
+RewriteEngine On
+# Blokir akses langsung ke folder internal
+RewriteRule ^(app|core|config|database)/ - [F,L]
